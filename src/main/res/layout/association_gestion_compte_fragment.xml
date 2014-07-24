@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="9">
+
+        <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center_vertical"
+            android:layout_marginTop="20dp">
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/association_gestion_compte_nom_asso"
+                android:ems="10"
+                android:id="@+id/association_gestion_compte_nom_asso" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textEmailAddress"
+                android:hint="@string/association_gestion_compte_mail"
+                android:ems="10"
+                android:id="@+id/association_gestion_compte_mail" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="phone"
+                android:hint="@string/association_gestion_compte_phone"
+                android:ems="10"
+                android:id="@+id/association_gestion_compte_phone" />
+
+            <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:hint="@string/association_gestion_compte_address"
+                android:ems="10"
+                android:id="@+id/association_gestion_compte_address" />
+
+            <TextView
+                android:id="@+id/association_gestion_compte_select_categ_text"
+                android:gravity="center|left"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:text="@string/association_gestion_compte_categorie_choice"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        </LinearLayout>
+        <GridView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:id="@+id/association_gestion_compte_categorie_grid"
+            android:layout_marginTop="10dp"
+            android:numColumns="auto_fit" />
+    </LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_gravity="center"
+        android:gravity="bottom|right"
+        android:layout_weight="1.2">
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/association_gestion_compte_reset"
+            android:ems="10"
+            android:id="@+id/association_gestion_compte_reset"
+            android:layout_gravity="bottom" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="@string/association_gestion_compte_validate"
+            android:ems="10"
+            android:id="@+id/association_gestion_compte_validate"
+            android:layout_gravity="bottom" />
+    </LinearLayout>
+</LinearLayout>

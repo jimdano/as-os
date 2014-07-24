@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">As-Os</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <!-- Login fragment -->
+    <string name="login_username">Login</string>
+    <string name="login_password">Mot de passe</string>
+    <string name="login_connect">Connexion</string>
+    <string name="login_sign_in">S\'enregistrer</string>
+
+    <!-- SignIn fragment -->
+    <string name="sign_in_asso_radio">Association</string>
+    <string name="sign_in_user_radio">Utilisateur</string>
+    <string name="sign_in_name">Nom</string>
+    <string name="sign_in_asso_name">Nom de l\'Asso</string>
+    <string name="sign_in_login">Login</string>
+    <string name="sign_in_mail">Mail</string>
+    <string name="sign_in_password">Mot de passe</string>
+    <string name="sign_in_password_confirm">Confirmer Mot de passe</string>
+    <string name="sign_in_phone">Telephone (Option)</string>
+    <string name="sign_in_address">Adresse de l\'Association</string>
+    <string name="sign_in_validate">S\'inscrire</string>
+    <string name="sign_in_categorie_choice">Activités de l\'Association</string>
+    <string name="sign_in_number_categorie">Activités sélectionnées : </string>
+    <string name="sign_in_code_postal">CP</string>
+    <string name="sign_in_city">Ville</string>
+
+    <!-- UtilisateurGestionCompte fragment -->
+    <string name="utilisateur_gestion_compte_mail">Mail</string>
+    <string name="utilisateur_gestion_compte_phone">Telephone</string>
+    <string name="utilisateur_gestion_compte_validate">Valider</string>
+    <string name="utilisateur_gestion_compte_reset">Changer Mot De Passe</string>
+    <string name="utilisateur_gestion_compte_categorie_choice">Activités Favorites :</string>
+    <string name="utilisateur_gestion_compte_number_categorie">Activités Sélectionnés : </string>
+
+    <!-- AssociationGestionCompte fragment -->
+    <string name="association_gestion_compte_nom_asso">Nom De l\'Association</string>
+    <string name="association_gestion_compte_mail">Mail</string>
+    <string name="association_gestion_compte_phone">Telephone</string>
+    <string name="association_gestion_compte_validate">Valider</string>
+    <string name="association_gestion_compte_reset">Changer Mot De Passe</string>
+    <string name="association_gestion_compte_address">Adresse De l\'Association</string>
+    <string name="association_gestion_compte_categorie_choice">Activités De l\'Association :</string>
+    <string name="association_gestion_compte_number_categorie">Activités Sélectionnés : </string>
+
+    <!-- AssociationCreationActivite fragment -->
+    <string name="association_creation_evenement_titre">Titre</string>
+    <string name="association_creation_evenement_lieu">Lieu (Adresse + Ville)</string>
+    <string name="association_creation_evenement_du">Du</string>
+    <string name="association_creation_evenement_au">Au</string>
+    <string name="association_creation_evenement_journee_entiere">Evènement journée entière</string>
+    <string name="association_creation_evenement_lieu_asso">Adresse de l\'Association</string>
+    <string name="association_creation_evenement_adresse_asso">Choisir l\'Adresse De l\'Association</string>
+    <string name="association_creation_evenement_frequence">Fréquence de l\'évenement</string>
+    <string name="association_creation_evenement_categorie_description">Sélectionnez une activité</string>
+    <string name="association_creation_evenement_number_categorie">Catégorie d\'évenement</string>
+    <string name="association_creation_evenement_categorie_selection">Sélectionner la catégorie d\'évenement</string>
+    <string name="association_creation_evenement_categorie_asso">Activités de l\'Association</string>
+    <string name="association_creation_evenement_descriptif">Descriptif de l\'évenement (max 250 caractères)</string>
+    <string name="association_creation_evenement_choix_date">Choisissez La Date</string>
+    <string name="association_creation_evenement_choix_hour">Heure</string>
+    <string name="association_creation_evenement_valider">Créer</string>
+
+    <!--Recherche fragment -->
+    <string name="recherche_fragment_suivant">Suivant</string>
+    <string name="association_recherche_associations">Filtrer par associations</string>
+    <string name="association_recherche_categories">Filtrer par catégories</string>
+    <string name="association_recherche_lieu">Filtrer par lieu (Ville ou code postal)</string>
+    <string name="association_recherche_mots_cles">Filtrer par mots clés</string>
+    <string name="association_recherche_association_favorite">Sélectionner les activités que je préfère</string>
+    <string name="association_recherche_association_date_filter">Filtrer par date</string>
+    <string name="association_recherche_choix_date_du">Du</string>
+    <string name="association_recherche_choix_hour_du">Heure</string>
+    <string name="association_recherche_choix_date_au">Au</string>
+    <string name="association_recherche_choix_hour_au">Heure</string>
+    <string name="association_recherche_journee">Evenement dans la journée</string>
+    <string name="recherche_fragment_criteres">Sélectionnez vos critères de recherches</string>
+
+    <!--critere etape recherche-->
+    <string name="activity_critere_etape_recherche_next">Suivant</string>
+    <string name="activity_critere_etape_recherche_finish">Terminer</string>
+    <string name="activity_critere_etape_recherche_back">Precedent</string>
+
+    <!-- DateSlider -->
+    <string name="dateSliderTitle">Selected date</string>
+    <declare-styleable name="Scroll">
+        <attr name="labelerClass" format="string"/>
+        <attr name="labelerFormat" format="string"/>
+        <attr name="childWidth" format="dimension"/>
+        <attr name="childHeight" format="dimension"/>
+    </declare-styleable>
+</resources>
